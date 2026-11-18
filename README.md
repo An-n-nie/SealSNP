@@ -24,9 +24,9 @@ Files used by the notebook (gray seal files):
 
 Sample sizes: 
 
-| Gulf of St. Lawrence (2015, n = 32) | 
-|Muskeget Island (2002, n = 33; 2015-16, n = 34) |
-|Sable Island (1973-74, n = 28; 1985, n = 29; 1998, n = 32; 2004, n = 32; 2015, n = 32)|
+Gulf of St. Lawrence (2015, n = 32) 
+Muskeget Island (2002, n = 33; 2015-16, n = 34) 
+Sable Island (1973-74, n = 28; 1985, n = 29; 1998, n = 32; 2004, n = 32; 2015, n = 32)
 
 ## Repository contents
 

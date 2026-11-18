@@ -39,7 +39,7 @@ SealSNP/
 ## How to run
 
 1. Download the three files listed above from the Dryad link into local machine.
-2. Open [![`notebooks/SealSNP.ipynb`](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/An-n-nie/SealSNP/blob/main/notebooks/SealSNP.ipynb) in Google Colab.
+2. Open [![`notebooks/SealSNP.ipynb`](https://colab.research.google.com/github/An-n-nie/SealSNP/blob/main/notebooks/SealSNP.ipynb) in Google Colab.
 3. Run the cells from top to bottom. The first cell asks you to upload the three data files; answer `no` when all files have been selected/uploaded and you wish to stop the upload.
 
 The notebook uses a fixed random seed (`random_state=42`), so results should be reproducible.
@@ -66,7 +66,7 @@ Metrics: accuracy, balanced accuracy, macro-F1, per-class precision and recall, 
 - [ ] Final report
 
 # Preliminary results
-Experiment 1 (held-out test set of 51 seals): tuned logistic regression reached accuracy 0.549 and balanced accuracy 0.372, against a naive baseline's balanced accuracy of 0.333 and a majority-class accuracy of about 0.61. Random forest matched the majority baseline so no real prediction was done beyond assigning guesses based on class distribution. In PCA, the three colonies overlap, which is consistent with the original finding of no strong colony structure.
+**Experiment 1:** (held-out test set of 51 seals) tuned logistic regression reached accuracy 0.549 and balanced accuracy 0.372, against a naive baseline's balanced accuracy of 0.333 and a majority-class accuracy of about 0.61. Random forest matched the majority baseline so no real prediction was done beyond assigning guesses based on class distribution. In PCA, the three colonies overlap, which is consistent with the original finding of no strong colony structure.
 
 ## AI usage
 

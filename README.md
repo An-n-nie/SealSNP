@@ -9,7 +9,7 @@ Can supervised machine learning classify Northwest Atlantic gray seals (*Halicho
 
 ## Data
 
-The data came from Cammen et al. (2019), archived on Dryad: <https://doi.org/10.5061/dryad.fg52075>. The study was conducted to examine whether the seals' DNA in the Northwest Atlantic region reflects a population crash period and whether genetic variety returns as their population grows afterwards. The study investigated population history with statistics and simulations while this repository uses the same data to predict colony from genotypes. A noteworthy finding from the study above is that there were no significant genetic structure among colonies so colony classification may prove difficult.
+The data came from Cammen et al. (2019), archived on Dryad: <https://doi.org/10.5061/dryad.fg52075>. The study was conducted to examine whether the seals' DNA in the Northwest Atlantic region reflects a population crash period and whether genetic variety returns as their population grows afterwards. The original paper investigated population history with statistics and simulations while this repository uses the same data to predict colony from genotypes. A noteworthy finding from the study above is that there were no significant genetic structure among colonies so colony classification may prove difficult.
 
 Files used by the notebook (gray seal files):
 
@@ -39,7 +39,7 @@ SealSNP/
 ## How to run
 
 1. Download the three files listed above from the Dryad link into local machine.
-2. Open [![`notebooks/SealSNP.ipynb`](https://colab.research.google.com/github/An-n-nie/SealSNP/blob/main/notebooks/SealSNP.ipynb) in Google Colab.
+2. Open `notebooks/SealSNP.ipynb` in Google Colab.
 3. Run the cells from top to bottom. The first cell asks you to upload the three data files; answer `no` when all files have been selected/uploaded and you wish to stop the upload.
 
 The notebook uses a fixed random seed (`random_state=42`), so results should be reproducible.
